@@ -1,0 +1,22 @@
+{
+  "name": "succinct-react-starter",
+  "version": "1.0.0",
+  "description": "A simple React starter kit inspired by Brian Holt",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jenniferlynparsons/succinct-react-starter.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Jennifer Lyn Parsons",
+  "license": "GNU GENERAL PUBLIC LICENSE",
+  "bugs": {
+    "url": "https://github.com/jenniferlynparsons/succinct-react-starter/issues"
+  },
+  "homepage": "https://github.com/jenniferlynparsons/succinct-react-starter#readme"
+}
