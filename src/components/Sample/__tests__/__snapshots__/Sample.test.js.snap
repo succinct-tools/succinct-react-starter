@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot 1`] = `
+<main>
+  <h1>
+    This is a sample page
+  </h1>
+  <button
+    onClick={[Function]}
+    type="submit"
+  >
+    Set State True
+  </button>
+  <button
+    onClick={[Function]}
+    type="submit"
+  >
+    Set State False
+  </button>
+</main>
+`;
