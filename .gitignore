@@ -1,0 +1,17 @@
+.DS_STORE
+node_modules
+dist/
+remote-repo/
+coverage/
+*.log*
+chrome-user-data
+*.sublime-project
+*.sublime-workspace
+.idea
+*.iml
+.vscode
+*.swp
+*.swo
+.cache
+.env
+package-lock.json

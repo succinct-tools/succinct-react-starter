@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot 1`] = `
+<nav>
+  <ul>
+    <li>
+      <a
+        aria-current="page"
+        href="/"
+        onClick={[Function]}
+      >
+        Home 
+      </a>
+    </li>
+  </ul>
+</nav>
+`;
