@@ -94,6 +94,7 @@ If you open up your project in your text editor, in the package.json file you'll
 - `npm run lint` - runs ESLint on all `.js` and `.jsx` files in the `src` directory
 - `npm run dev` - runs Parcel and tells it which file to user to start the app. In this case, `index.html`.
 - `npm run build` - runs Parcel to compile a production build based of the `index.html` file.
+- `npm run buildgh` - runs Parcel to complile to the `/docs` folder for deployment on Github Pages.
 
 Once you've got it installed, to start the project server, run `npm run dev` and it will be running at `http://localhost:1234`.
 
