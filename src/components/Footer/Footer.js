@@ -2,7 +2,10 @@ import React from "react";
 
 const Footer = () => (
   <footer>
-    <p>This is a Footer</p>
+    <p>
+      Created with love by{" "}
+      <a href="http://jenniferlynparsons.net">Jennifer Lyn Parsons</a>
+    </p>
   </footer>
 );
 

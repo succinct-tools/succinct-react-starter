@@ -1,6 +1,8 @@
 import React from "react";
+import { Router } from "@reach/router";
 import NavBar from "../NavBar";
 import Sample from "../Sample";
+import Demo from "../Demo";
 import Footer from "../Footer";
 import "../../common_styles/global.scss";
 
@@ -15,7 +17,10 @@ class App extends React.Component {
     return (
       <div>
         <NavBar />
-        <Sample />
+        <Router>
+          <Sample path="/" />
+          <Demo path="/demo" />
+        </Router>
         <Footer />
       </div>
     );
