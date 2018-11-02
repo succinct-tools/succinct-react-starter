@@ -93,6 +93,7 @@ If you open up your project in your text editor, in the package.json file you'll
 - `npm run testc` - runs Jest with a coverage report, which is generated in a coverage folder in the root
 - `npm run lint` - runs ESLint on all `.js` and `.jsx` files in the `src` directory
 - `npm run dev` - runs Parcel and tells it which file to user to start the app. In this case, `index.html`.
+- `npm run build` - runs Parcel to compile a production build based of the `index.html` file.
 
 Once you've got it installed, to start the project server, run `npm run dev` and it will be running at `http://localhost:1234`.
 
