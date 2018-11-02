@@ -61,19 +61,19 @@ I've set up a basic `.babelrc`, `.eslintrc.json`, and `.prettierrc` so that you 
 ### VS Code
 
 This is my preferred editor. I recommend using the following extensions:
-- npm Intellisense
-- Prettier - Code formatter
-- ESLint
-- vscode-styled-components [if you'll be using Emotion)
+- [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
+- [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [vscode-styled-components](https://marketplace.visualstudio.com/items?itemName=mf.vscode-styled-components) (if you'll be using Emotion)
 
 I can also recommend a couple extensions I find helpful in general front end development:
-- Auto Rename Tag
-- Bracket Pair Colorizer
-- Intellisense for CSS class names
+- [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
+- [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer)
+- [Intellisense for CSS class names](https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion)
 
 ### Dev Tools
 
-I recommend you also install the React and Redux [if you're using it) developer tools in your browser. It will make debugging easier.
+I recommend you also install the [React](https://github.com/facebook/react-devtools) and [Redux](https://github.com/zalmoxisus/redux-devtools-extension) (if you're using it) developer tools in your browser. It will make debugging easier.
 
 ### Up and running
 
@@ -86,13 +86,13 @@ npm install
 
 If you open up your project in your text editor, in the package.json file you'll find some scripts you can run in your terminal that can be run as follows:
 
-`npm run format` - runs Prettier
-`npm run test` - runs your Jest tests
-`npm run testu` - runs the snapshot updates on Jest tests
-`npm run testw` - runs Jest with the watch argument, making repeatedly running tests more useful
-`npm run testc` - runs Jest with a coverage report, which is generated in a coverage folder in the root
-`npm run lint` - runs ESLint on all `.js` and `.jsx` files in the `src` directory
-`npm run dev` - runs Parcel and tells it which file to user to start the app. In this case, `index.html`.
+- `npm run format` - runs Prettier
+- `npm run test` - runs your Jest tests
+- `npm run testu` - runs the snapshot updates on Jest tests
+- `npm run testw` - runs Jest with the watch argument, making repeatedly running tests more useful
+- `npm run testc` - runs Jest with a coverage report, which is generated in a coverage folder in the root
+- `npm run lint` - runs ESLint on all `.js` and `.jsx` files in the `src` directory
+- `npm run dev` - runs Parcel and tells it which file to user to start the app. In this case, `index.html`.
 
 Once you've got it installed, to start the project server, run `npm run dev` and it will be running at `http://localhost:1234`.
 
