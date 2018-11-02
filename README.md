@@ -1,6 +1,6 @@
 # Succint React Starter
 
-Thanks to (Brian Holt)[https://github.com/btholt] for the inspiration!
+Thanks to [Brian Holt](https://github.com/btholt) for the inspiration!
 
 ## Why did I build this?
 Create React App is a great starting point, but I wanted something a bit more custom. Parcel instead of Webpack, for example. I also wanted to see if I could build something I would use myself and make getting little experiments up and running quickly easier.
@@ -10,11 +10,11 @@ I've kept things as simple, streamlined, and modular as I could. Hopefully this 
 
 ### CSS/Sass
 
-I've used the very basic (Marx classless framework/reset)[https://mblode.github.io/marx/] to provide a starting point for basic prototyping with a tolerable UI while maintaining symantic and accessibility standards. Removing it is as simple as deleting the cdn link from `index.html`.
+I've used the very basic [Marx classless framework/reset](https://mblode.github.io/marx/) to provide a starting point for basic prototyping with a tolerable UI while maintaining symantic and accessibility standards. Removing it is as simple as deleting the cdn link from `index.html`.
 
 I've also provided a few basic overrides for the nav bar and button styling, which also serve as examples of how the styling files can be structured within the project.
 
-On a more formal project, I would probably use (Bulma)[https://bulma.io/] via (Trunx)[https://github.com/fibo/trunx].
+On a more formal project, I would probably use [Bulma](https://bulma.io/) via [Trunx](https://github.com/fibo/trunx).
 
 ### Sample files
 
@@ -25,31 +25,31 @@ I've included a navbar, a sample page, and a footer, which also act as the demo 
 It's fairly self-explanatory, but here's what's included, with links to each package so you can read the documentation.
 
 #### devDependencies
-- (babel-core)[https://www.npmjs.com/package/babel-core]
-- (babel-eslint)[https://www.npmjs.com/package/babel-eslint]
-- (babel-plugin-transform-class-properties)[https://www.npmjs.com/package/babel-plugin-transform-class-properties]
-- (babel-preset-env)[https://www.npmjs.com/package/babel-preset-env]
-- (babel-preset-react)[https://www.npmjs.com/package/babel-preset-react]
-- (eslint)[https://www.npmjs.com/package/eslint]
-- (eslint-config-prettier)[https://www.npmjs.com/package/eslint-config-prettier]
-- (eslint-plugin-import)[https://www.npmjs.com/package/eslint-plugin-import]
-- (eslint-plugin-jsx-a11y)[https://www.npmjs.com/package/eslint-plugin-jsx-a11y]
-- (eslint-plugin-prettier)[https://www.npmjs.com/package/eslint-plugin-prettier]
-- (eslint-plugin-react)[https://www.npmjs.com/package/eslint-plugin-react]
-- (jest)[https://www.npmjs.com/package/jest]
-- (parcel-bundler)[https://www.npmjs.com/package/parcel-bundler]
-- (prettier)[https://www.npmjs.com/package/prettier]
-- (react-test-renderer)[https://www.npmjs.com/package/react-test-renderer]
-- (sass)[https://www.npmjs.com/package/sass]
+- [babel-core](https://www.npmjs.com/package/babel-core)
+- [babel-eslint](https://www.npmjs.com/package/babel-eslint)
+- [babel-plugin-transform-class-properties](https://www.npmjs.com/package/babel-plugin-transform-class-properties)
+- [babel-preset-env](https://www.npmjs.com/package/babel-preset-env)
+- [babel-preset-react](https://www.npmjs.com/package/babel-preset-react)
+- [eslint](https://www.npmjs.com/package/eslint)
+- [eslint-config-prettier](https://www.npmjs.com/package/eslint-config-prettier)
+- [eslint-plugin-import](https://www.npmjs.com/package/eslint-plugin-import)
+- [eslint-plugin-jsx-a11y](https://www.npmjs.com/package/eslint-plugin-jsx-a11y)
+- [eslint-plugin-prettier](https://www.npmjs.com/package/eslint-plugin-prettier)
+- [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react)
+- [jest](https://www.npmjs.com/package/jest)
+- [parcel-bundler](https://www.npmjs.com/package/parcel-bundler)
+- [prettier](https://www.npmjs.com/package/prettier)
+- [react-test-renderer](https://www.npmjs.com/package/react-test-renderer)
+- [sass](https://www.npmjs.com/package/sass)
 
 #### dependencies
-- (@reach/router)[https://www.npmjs.com/package/@reach/router]
-- (emotion)[https://www.npmjs.com/package/emotion]
-- (identity-obj-proxy)[https://www.npmjs.com/package/identity-obj-proxy]
-- (react)[https://www.npmjs.com/package/react]
-- (react-dom)[https://www.npmjs.com/package/react-dom]
-- (react-emotion)[https://www.npmjs.com/package/react-emotion]
-- (react-loadable)[https://www.npmjs.com/package/react-loadable]
+- [@reach/router](https://www.npmjs.com/package/@reach/router)
+- [emotion](https://www.npmjs.com/package/emotion)
+- [identity-obj-proxy](https://www.npmjs.com/package/identity-obj-proxy)
+- [react](https://www.npmjs.com/package/react)
+- [react-dom](https://www.npmjs.com/package/react-dom)
+- [react-emotion](https://www.npmjs.com/package/react-emotion)
+- [react-loadable](https://www.npmjs.com/package/react-loadable)
 
 
 ### The config files
@@ -64,7 +64,7 @@ This is my preferred editor. I recommend using the following extensions:
 - npm Intellisense
 - Prettier - Code formatter
 - ESLint
-- vscode-styled-components (if you'll be using Emotion)
+- vscode-styled-components [if you'll be using Emotion)
 
 I can also recommend a couple extensions I find helpful in general front end development:
 - Auto Rename Tag
@@ -73,7 +73,7 @@ I can also recommend a couple extensions I find helpful in general front end dev
 
 ### Dev Tools
 
-I recommend you also install the React and Redux (if you're using it) developer tools in your browser. It will make debugging easier.
+I recommend you also install the React and Redux [if you're using it) developer tools in your browser. It will make debugging easier.
 
 ### Up and running
 
