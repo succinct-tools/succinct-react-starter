@@ -11,7 +11,7 @@
     "testc": "jest --silent --coverage",
     "lint": "eslint \"src/**/*.{js, jsx}\"",
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html --out-dir dist --public-url ./"
   },
   "repository": {
     "type": "git",
