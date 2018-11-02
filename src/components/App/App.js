@@ -18,8 +18,8 @@ class App extends React.Component {
       <div>
         <NavBar />
         <Router>
-          <Sample path="/" />
-          <Demo path="/demo" />
+          <Sample path={process.env.PUBLIC_URL + '/'} />
+          <Demo path={process.env.PUBLIC_URL + '/demo'} />
         </Router>
         <Footer />
       </div>
